@@ -1,0 +1,18 @@
+# Local preview screenshots and working files
+/preview/
+
+# Design source and coursework reference; kept locally, not needed to run the site
+/Mr. Coffe.fig
+/Referensi HCI.docx
+
+# Local tooling and environment files
+node_modules/
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

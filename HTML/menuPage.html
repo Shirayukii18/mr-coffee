@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mr. Coffee</title>
+    <link rel="stylesheet" href="styleMenu.css" />
+  <link rel="stylesheet" href="shared.css">
+</head>
+<body class="menu-page">
+
+    <header>
+        <div class="header-container">
+        <button class="mobile-menu-toggle" id="mobileMenuToggle">&#9776;</button>
+        <nav class="main-nav" id="mainNav">
+            <div class="logo">
+              <img src="Image/logo/logo.png" alt="Mr. Coffee logo">
+            </div>
+            <a href="homePage.html">Home</a>
+            <a href="rewardsPage.html">Rewards</a>
+            <a href="aboutUsPage.html">About Us</a>
+            <a href="menuPage.html" class="active">Menu</a>
+            <a href="orderPage.html">Order</a>
+        </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <span class="eyebrow">Freshly made, just for you</span>
+        <h1>Find your favorite.</h1>
+        <p>Kopi favorit dan teman manis untuk setiap ceritamu.</p>
+        <div class="menu-categories">
+            <button class="category-btn active" data-category="iced">Iced Coffee</button>
+            <button class="category-btn" data-category="hot">Hot Coffee</button>
+            <button class="category-btn" data-category="latte">Latte</button>
+            <button class="category-btn" data-category="pastry">Pastry</button>
+        </div>
+    </section>
+
+    <main class="content">
+        <section class="menu-section" id="iced">
+            <div class="menu-heading"><h2 class="section-title">Iced Coffee</h2><a href="orderPage.html">Lihat pesanan &rarr;</a></div>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/iced machiatto.png" alt="Iced Macchiato" />
+                    </div>
+                    <div class="item-name">Iced Macchiato</div>
+                    <div class="item-price">IDR. 35.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/iced americano.png" alt="Iced Americano" />
+                    </div>
+                    <div class="item-name">Iced Americano</div>
+                    <div class="item-price">IDR. 22.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/iced cappuccino.png" alt="Iced Cappuccino" />
+                    </div>
+                    <div class="item-name">Iced Cappuccino</div>
+                    <div class="item-price">IDR. 31.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/frappe.png" alt="Frappe" />
+                    </div>
+                    <div class="item-name">Frappe</div>
+                    <div class="item-price">IDR. 35.000,00</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section" id="hot" style="display: none;">
+            <h2 class="section-title">Hot Coffee</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/hot cappuccino.png" alt="Hot Cappuccino" />
+                    </div>
+                    <div class="item-name">Hot Cappuccino</div>
+                    <div class="item-price">IDR. 29.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/hot americano.png" alt="Hot Americano" />
+                    </div>
+                    <div class="item-name">Hot Americano</div>
+                    <div class="item-price">IDR. 22.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/hot machiatto.png" alt="Hot Macchiato" />
+                    </div>
+                    <div class="item-name">Hot Macchiato</div>
+                    <div class="item-price">IDR. 33.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/hot espresso.png" alt="Hot Espresso" />
+                    </div>
+                    <div class="item-name">Hot Espresso</div>
+                    <div class="item-price">IDR. 19.000,00</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section" id="latte" style="display: none;">
+            <h2 class="section-title">Latte</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/caramel latte.png" alt="Caramel Latte" />
+                    </div>
+                    <div class="item-name">Caramel Latte</div>
+                    <div class="item-price">IDR. 39.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/cafe latte.png" alt="Cafe Latte" />
+                    </div>
+                    <div class="item-name">Cafe Latte</div>
+                    <div class="item-price">IDR. 25.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/mocha latte.png" alt="Mocha Latte" />
+                    </div>
+                    <div class="item-name">Mocha Latte</div>
+                    <div class="item-price">IDR. 33.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/macha latte.png" alt="Matcha Latte" />
+                    </div>
+                    <div class="item-name">Matcha Latte</div>
+                    <div class="item-price">IDR. 39.000,00</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu-section" id="pastry" style="display: none;">
+            <h2 class="section-title">Pastry</h2>
+            <div class="menu-grid">
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/cheesecake.png" alt="Cheesecake" />
+                    </div>
+                    <div class="item-name">Cheesecake</div>
+                    <div class="item-price">IDR. 41.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/cookies.png" alt="Cookies" />
+                    </div>
+                    <div class="item-name">Cookies</div>
+                    <div class="item-price">IDR. 23.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/chocolate cake.png" alt="Chocolate Cake" />
+                    </div>
+                    <div class="item-name">Chocolate Cake</div>
+                    <div class="item-price">IDR. 41.000,00</div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-image">
+                        <img src="Image/menu/crossaint.png" alt="Croissant" />
+                    </div>
+                    <div class="item-name">Croissant</div>
+                    <div class="item-price">IDR. 24.000,00</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <dialog class="coffee-dialog" id="menuDialog" aria-labelledby="menuDialogTitle" aria-describedby="menuDescription">
+      <button type="button" class="dialog-close" data-close aria-label="Tutup detail menu" autofocus>&times;</button>
+      <img id="menuDialogPhoto" class="dialog-photo" alt="">
+      <span class="eyebrow">Your daily little treat</span>
+      <h2 id="menuDialogTitle"></h2>
+      <p id="menuDescription" class="dialog-description"></p>
+      <p id="menuPrice" class="dialog-price"></p>
+      <div class="quantity-row"><span>Jumlah</span><div class="quantity-control">
+        <button type="button" id="quantityMinus" aria-label="Kurangi jumlah">−</button>
+        <output id="menuQuantity" aria-live="polite" aria-label="Jumlah menu">1</output>
+        <button type="button" id="quantityPlus" aria-label="Tambah jumlah">+</button>
+      </div></div>
+      <div class="subtotal-row"><span>Subtotal</span><strong id="menuSubtotal" aria-live="polite"></strong></div>
+      <p id="menuLimit" class="field-error" role="alert" hidden>Maksimal 99 untuk setiap menu dalam pesanan.</p>
+      <div class="dialog-actions"><button type="button" class="secondary-button" data-close>Batal</button><button type="button" class="primary-button" id="addToOrder">Tambah ke pesanan</button></div>
+    </dialog>
+
+    <footer>
+        <div class="footer-grid">
+            <div>
+                <h4>Product</h4>
+                <ul>
+                    <li>Menu</li>
+                    <li>How To Order</li>
+                    <li>Collaborations</li>
+                    <li>Order</li>
+                </ul>
+            </div>
+            <div>
+                <h4>About Us</h4>
+                <ul>
+                    <li>Our Story</li>
+                    <li>Vision</li>
+                    <li>Mission</li>
+                    <li>Our CEO</li>
+                </ul>
+            </div>
+            <div>
+                <h4>Policies & Info</h4>
+                <ul>
+                    <li>Terms & Conditions</li>
+                    <li>Privacy Policy</li>
+                    <li>Returns & Cancellations</li>
+                    <li>Customer Support</li>
+                </ul>
+            </div>
+        </div>
+        <p class="copyright">© 2025 Mr. Coffee. All rights reserved.</p>
+    </footer>
+
+    <script src="shared.js"></script>
+    <script src="scriptMenu.js"></script>
+</body>
+</html>
